@@ -1,0 +1,58 @@
+body {
+	padding:0;
+	margin:0;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color:red;
+}
+.fundo{
+	width: 700px;
+	max-width: 90%;
+}
+.caixa{
+	background-color:black;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0 0 10px 2px;
+	border-radius: 20px;
+}
+.caixa h2{
+	color:yellow;
+
+}
+.caixabtn{
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	gap:10px;
+
+}
+@media (max-width: 991px){
+	.caixabtn{
+	display: grid;
+	grid-template-columns: repeat(1, auto);
+	gap:10px;
+	}
+}
+
+.caixabtn .btn{
+	border-radius: 10px;
+	padding: 5px 10px;
+	font-size: 30px;
+	background-color: #f7ce6a;
+	outline: none;
+}
+.caixa p{
+	font-size: 18px;
+	color: white;
+}
+.fundo .ccc{
+	text-align: center;
+	font-weight: bold;
+}
+.hide{
+	display: none;
+}
